@@ -1,0 +1,145 @@
+ /* .form_title{
+    font-size: 40pt;
+    font-family: Arial, Helvetica, sans-serif;
+} */
+.jumbotron{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} 
+
+body{
+    background-color: #fffffe;
+}
+/* index.php分↓ */
+.navbar-brand-a{
+    font-size: 12pt;
+    font-weight: bold;
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: 1px;
+    background: #59c173;;
+    color: #fff;
+    border-radius:30px;
+    transition: box-shadow .3s;
+}
+a.navbar-brand-a:hover{
+    box-shadow: 0px 4px 8px rgb(109, 85, 119);
+ }
+
+.form_title{
+    font-size: 12pt;
+    font-weight: bold; 
+    color: #5d26c1; 
+    padding: 10px 10px;
+}
+.name1{
+    font-size: 12pt;
+    font-weight: bold; 
+    color: #181818; 
+    padding: 10px 10px; 
+}
+.email1{
+    font-size: 12pt;
+    font-weight: bold; 
+    color: #181818; 
+    padding: 10px 10px; 
+}
+.book1{
+    font-size: 12pt;
+    font-weight: bold; 
+    color: #181818; 
+    padding: 10px 10px; 
+}
+.point1{
+    font-size: 12pt;
+    font-weight: bold; 
+    color: #181818; 
+    padding: 10px 10px; 
+}
+.comment1{
+    font-size: 12pt;
+    font-weight: bold; 
+    color: #181818; 
+    padding: 10px 10px; 
+}
+
+/* select.php分↓ */ 
+.navbar-brand1{
+    font-size: 15pt;
+    font-weight: bold;
+    color: #181818;
+}
+
+a.navbar-brand2{
+    font-size: 12pt;
+    font-weight: bold;
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: 1px;
+    background: #994ff3;;
+    color: #fff;
+    border-radius:30px;
+    transition: box-shadow .3s;
+    /* box-shadow: 0px 2px 4px rgb(85, 86, 119); */
+}
+
+ a.navbar-brand2:hover{
+    box-shadow: 0px 4px 8px rgb(109, 85, 119);
+ }
+
+
+.navbar-brand3{
+    font-size: 12pt;
+    font-weight: bold;
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: 1px;
+    background: #fbdd74;;
+    color: #181818;
+    border-radius:30px;
+    transition: box-shadow .3s;
+}
+
+ a.navbar-brand3:hover{
+    box-shadow: 0px 4px 8px rgb(119, 119, 85);
+  }
+
+#updatebutton{
+    font-size: 10pt;
+    font-weight: bold;
+    display: inline-block;
+    padding: 5px 20px;
+    text-decoration: none;
+    border: 1px solid transparent;
+    background: #4fc4cf;;
+    color: #181818;
+    border-radius:30px;
+    cursor: pointer;
+}
+#updatebutton:hover{
+    border: 2px solid #4fc4cf;
+    background: #FFF;
+    color: #181818;
+}
+
+#deletebutton{
+    font-size: 10pt;
+    font-weight: bold;
+    display: inline-block;
+    padding: 5px 20px;
+    text-decoration: none;
+    border: 1px solid transparent;
+    background: #4fc4cf;;
+    color: #181818;
+    /* border: 5px solid #4fc4cf; */
+    border-radius:30px;
+    cursor: pointer;
+}
+
+#deletebutton:hover{
+    border: 2px solid #4fc4cf;
+    background: #FFF;
+    color: #181818;
+}
