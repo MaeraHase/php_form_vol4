@@ -14,12 +14,7 @@ function db_conn(){
       $db_host = "localhost"; //DBホスト
       return new PDO('mysql:dbname='.$db_name.';charset=utf8;host='.$db_host,$db_id,$db_pw);
 
-      // $db_name = "maera-deploy_php_form"; //データベース名
-      // $db_id = "maera-deploy"; //アカウント名
-      // $db_pw ="maera9902"; //パスワード
-      // $db_host = "mysql652.db.sakura.ne.jp"; //DBホスト
-      // return new PDO('mysql:dbname='.$db_name.';charset=utf8;host='.$db_host,$db_id,$db_pw);
-
+  
 
     } catch (PDOException $e) {
       exit('DB_CONECT:'.$e->getMessage());
