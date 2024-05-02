@@ -52,7 +52,7 @@ $v = $stmt->fetch(); //PDO::FETCH_ASSOC[カラム名のみで取得できるモ�
 <header>
   <nav class="navbar navbar-default">
     <div class="container-fluid">
-    <div class="navbar-header"><a class="navbar-brand" href="select.php">データ一覧</a></div>
+    <div class="navbar-header"><a class="navbar-brand-a" href="select.php">データ一覧</a></div>
     </div>
   </nav>
 </header>

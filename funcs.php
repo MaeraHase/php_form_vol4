@@ -14,7 +14,7 @@ function db_conn(){
       $db_host = "localhost"; //DBホスト
       return new PDO('mysql:dbname='.$db_name.';charset=utf8;host='.$db_host,$db_id,$db_pw);
 
-  
+
 
     } catch (PDOException $e) {
       exit('DB_CONECT:'.$e->getMessage());
