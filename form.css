@@ -119,7 +119,8 @@ a.navbar-brand2{
     cursor: pointer;
 }
 #updatebutton:hover{
-    border: 2px solid #4fc4cf;
+    border: 0.5px solid #4fc4cf;
+    /* border: none; */
     background: #FFF;
     color: #181818;
 }
@@ -139,7 +140,7 @@ a.navbar-brand2{
 }
 
 #deletebutton:hover{
-    border: 2px solid #4fc4cf;
+    border: 0.5px solid #4fc4cf;
     background: #FFF;
     color: #181818;
 }
